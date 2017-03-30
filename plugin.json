@@ -2,7 +2,7 @@
   "name": "TopItems",
   "description": "Plugin to render a list of top items",
   "namespace": "TopItems",
-  "author": "Your name",
+  "author": "Sharko",
   "type": "template",
   "serviceProvider": "TopItems\\Providers\\TopItemsServiceProvider"
 }

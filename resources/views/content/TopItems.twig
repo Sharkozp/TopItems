@@ -14,7 +14,7 @@
                         {% set image = item.variationImageList | first %}
                         <img class="col-lg-12" src="{{ image.path }}" alt="{{ image.cleanImageName }}">
                         <div class="card-block">
-                            <p class="card-text">{{ item.itemDescription.description }}</p>
+                            {{ item.itemDescription.description }}
                         </div>
                         <div class="card-footer bg-primary">
                             <h4 style="text-align: center">Price: {{ item.variationRetailPrice.price }} €</h4>
